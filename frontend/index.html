@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Calculator</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="calculator">
+    <input type="text" id="expression" readonly>
+    <div class="buttons">
+      <!-- Add calculator buttons -->
+      <button onclick="append('1')">1</button>
+      <button onclick="append('+')">+</button>
+      <button onclick="append('2')">2</button>
+      <!-- More buttons -->
+      <button onclick="calculate()">=</button>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
